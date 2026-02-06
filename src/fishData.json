@@ -1,0 +1,34 @@
+{
+  "fish": [
+    {
+      "id": 1,
+      "name": "Linda",
+      "type": "Neonka",
+      "size": "malá"
+    },
+    {
+      "id": 2,
+      "name": "Coudy",
+      "type": "Plat",
+      "size": "malá"
+    },
+    {
+      "id": 3,
+      "name": "Ayme",
+      "type": "Tetra",
+      "size": "malá"
+    },
+    {
+      "id": 4,
+      "name": "Sam",
+      "type": "Akara",
+      "size": "velká"
+    },
+    {
+      "id": 5,
+      "name": "Nemo",
+      "type": "Klaun",
+      "size": "velká"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+.glass-body {
+  background: radial-gradient(circle at top left, #1a1a2e, #16213e, #0f3460);
+  min-height: 100vh;
+  color: white;
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.custom-glass-table {
+  color: #fff !important;
+}
+
+.custom-glass-table th {
+  border-bottom: solid 1px;
+  font-weight: 500;
+  padding: 1.2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.custom-glass-table td {
+  border-color: rgba(255, 255, 255, 0.05);
+  padding: 1.2rem;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #fff;
+}
+
+.btn-glass {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn-glass:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #00d4ff;
+}

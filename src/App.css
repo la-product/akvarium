@@ -1,0 +1,69 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+.page-toggler {
+  display: flex;
+  width: 500px;
+  margin: 50px 0;
+  padding-top: 0;
+  justify-content: space-between;
+  margin: 30px 0;
+  height: 40px;
+}
+
+.toggler-btn {
+  height: 100%;
+  width: 48%;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.akvarium-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 50px 0;
+  padding-top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-addAkvarium {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-disabled {
+  background-color: #d32f2f;
+  cursor: not-allowed;
+}
+
+.btn-enabled {
+  background-color: #2e7d32;
+}
+
+.btn-enabled:hover {
+  background-color: #1b5e20;
+}
+
+h1,
+h3 {
+  color: rgba(255, 255, 255, 0.8);
+}
