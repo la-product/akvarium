@@ -12,4 +12,4 @@ This is my second project.
 ### Second Tab: Akvarium
 * There you can create akvarium for the fish in your list.
 * Enter the individual dimensions of the aquarium.
-* The button will enable depends on the
+* The button will enable depends on the number of fish in the list.
