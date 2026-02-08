@@ -1,8 +1,15 @@
-# Akvarium
+# Akvarium - REACT Project
+This is my second project.
 
-## REACT Project
-*Seccond project*
-First Tab is List of fish. You are able to add or remove fish from the list.
-Seccond Tab (Akvarium), there you can create akvarium for the fish in list.
-Enter the individual dimensions of the aquarium and enable button. Depends on the number of fish in the list.
+---
 
+## 📱 Features
+
+### First Tab: List of fish
+* List of all your fish.
+* You are able to **add** or **remove** fish from the list.
+
+### Second Tab: Akvarium
+* There you can create akvarium for the fish in your list.
+* Enter the individual dimensions of the aquarium.
+* The button will enable depends on the
