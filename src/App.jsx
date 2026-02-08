@@ -75,6 +75,7 @@ function App() {
           >
             Seznam rybiček
           </button>
+
           <button
             className={`toggler-btn ${activeTab === 2 ? "active" : ""}`}
             name="shelter-storage"
